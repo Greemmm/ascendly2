@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascendly</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png" type="image/icon type">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" onclick="changeContent('home')">Home</a>
+            <a href="#" onclick="changeContent('info')">Info</a>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <div class="carousel">
+        <!-- Desc -->
+        <div class="list">
+            <div class="item">
+                <img src="logo2.jpg">
+                <div class="content">
+                    <div class="author">Ascendly</div>
+                    <div class="title">Where creativity meets live entertainment</div>
+                    <div class="topic">Join Our Stream</div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <img src="https://www.scentbird.com/blog/wp-content/uploads/2024/01/shutterstock_2115426428-scaled.jpg">
+                <div class="content">
+                    <div class="title">
+                       
+                    </div>
+                    <div class="description">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+
+    <!-- About Us Section -->
+        <div id="Main1" class="about-section">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>
+                Ascendly is a student gaming stream dedicated to helping players improve, learn smart strategies, and enjoy gameplay. We focus on providing simple, practical gaming tips while creating an entertaining and engaging streaming experience. Our goal is to build a community where players can learn, grow, and have fun together.
+                <button id="learnMoreBtn" class="learn-more" onclick="changeContent('info')"><span>More Details</span></button>
+                <!--<button id="learnMoreBtn2" class="learn-more" onclick="changeContent('shop')"><span>Shop</span></button>-->
+            </div>
+            <div class="video-box">
+                <a style="font-weight: bold; font-size: 50px; margin-left: 23%;">Stream Design</a>
+                <img src="https://static.vecteezy.com/system/resources/previews/020/919/316/non_2x/live-streaming-overlay-design-with-abstract-shapes-futuristic-gaming-overlay-and-broadcast-border-on-a-dark-background-modern-gaming-overlay-and-online-screen-panel-design-with-red-color-free-vector.jpg">
+              </div>
+            </div>
+        </div>
+
+    <!--CONTENT-->
+    <div id="content">
+       <div id="info" class="content-section" data-background="#303179">
+        <p id="info-content"></p>
+        <button id="HomeBtn" class="learn-more" onclick="changeContent('home')"><span>Back to Main</span></button>
+        <p class="intro">Stream Flow</p>
+        <p class="intro-description">Our stream usually starts around 7:00 AM and will be ending at exactly 10:05 AM. We follow a structured flow to keep our stream smooth, organized, and fun for everyone. The stream will be happening on the platform Youtube. </p>
+        <table border="2" cellspacing="0" cellpadding="8" style="margin: 0 auto; font-family: 'Markazi Text'; color: white;">
+  <tbody><tr style="font-family: 'Merriweather';">
+    <th>Time</th>
+    <th>Duration</th>
+    <th>Segment</th>
+    <th>Goals</th>
+  </tr>
+
+  <tr>
+    <td>7:00</td>
+    <td>10 Minutes</td>
+    <td>Setup</td>
+    <td>The stream is live, but the camera/mic is off. Use a branded Starting Soon screen with a countdown timer. Check all software (audio levels, game capture, overlays). Review chat rules. Play royalty-free music.</td>
+  </tr>
+
+  <tr>
+    <td>7:10</td>
+    <td>10 Minutes </td>
+    <td>Intro</td>
+    <td>Go live! High-energy greeting and shout out recent followers and subscribers.</td>
+  </tr>
+
+  <tr>
+    <td>7:20</td>
+    <td>10 Minutes</td>
+    <td>Gaming Tips</td>
+    <td>Gaming tips are important in a stream because they are a form of engaging content that helps attract and retain viewers, build a community, and establish the streamer's credibility and expertise. Viewers often tune in specifically to learn and improve their own gameplay. </td>
+  </tr>
+
+  <tr>
+    <td>7:30</td>
+    <td>1 Hour</td>
+    <td>Game Focus</td>
+    <td>The main action begins. Focus intensely on the game objective. Engage with chat primarily during downtime (loading screens, dying, inventory management). Answer a Question of the Day (QOTD) if you have one.</td>
+  </tr>
+
+  <tr>
+    <td>8:30</td>
+    <td>10 Minutes</td>
+    <td>Community Break</td>
+    <td>Streaming is a demanding activity, and taking breaks is vital to prevent burnout and maintain a positive attitude. </td>
+  </tr>
+    <tr>
+    <td>8:40</td>
+    <td>1 Hour</td>
+    <td>Game Focus</td>
+    <td>Return to the game, perhaps with a new strategy or objective. If playing with viewers, start the "Viewer Games" segment here. Keep the energy high and recap what happened before the break.</td>
+  </tr>
+      <tr>
+    <td>9:40</td>
+    <td>25 Minutes</td>
+    <td>Promotion/Additional Activities</td>
+    <td>To finish strong, we will complete the current objective or find a good stopping point, then transition to a Community Chat session to review performance and plan the next stream; before we wrap up, please remember to follow all my social media, and a final thanks goes to the mods and community as we set up the Raid/Host to send traffic to another streamer.</td>
+  </tr>
+      <tr>
+    <td>10:05</td>
+    <td>5 Minutes</td>
+    <td>Outro</td>
+    <td>It provides a professional closing, helps reinforce your brand, encourages viewers to take the next action (like subscribing or watching another video), and leaves a lasting positive impression. Without a proper outro, a stream can feel abrupt, leaving viewers unsure of what to do next. </td>
+  </tr>
+</tbody></table>
+        <p class="eco">Stream Details</p>
+        <br>
+        <br>
+        <p class="eco-description">7:00 PM — Setup</p>
+        <p class="eco-description">We prepare the stream by checking audio, camera, overlays, and game capture. A “Starting Soon” screen with music plays while everything loads.</p>
+        <br>
+
+         <p class="eco-description">7:10 PM — Intro</p>
+        <p class="eco-description">We officially go live, greet viewers, and warm up the stream with quick announcements and shoutouts.</p>
+        <br>
+
+         <p class="eco-description">7:20 PM — Gaming Tips</p>
+        <p class="eco-description">We share helpful gaming strategies, mechanics breakdowns, and improvement guides to the game we’re playing.</p>
+        <br>
+
+         <p class="eco-description">7:30 PM — Game Focus</p>
+        <p class="eco-description">The main session begins. We concentrate on completing objectives, leveling up, or progressing through the game while interacting with chat.</p>
+        <br>
+
+         <p class="eco-description">8:30 PM — Community Break</p>
+        <p class="eco-description">A short rest session where we hydrate, stretch, and chat with the community to keep the vibe fresh and avoid burnout.</p>
+        <br>
+
+         <p class="eco-description">8:40 PM — Game Focus (Second Session)</p>
+        <p class="eco-description">We return to gameplay with new strategies or objectives.</p>
+        <br>
+
+        <p class="eco-description">9:40 PM — Promotions + Extra Activities</p>
+        <p class="eco-description">We wrap up ongoing missions, chat about upcoming events, review the game, and remind viewers to follow or join the community.</p>
+        <br>
+        <p class="eco-description">10:05 PM — Outro</p>
+        <p class="eco-description">A clean, professional ending that thanks viewers, recaps the stream, and invites them to return next time.</p>
+        <br>
+        
+         <div class="product-box-container">
+            <div class="box">
+                <img src="https://cdn3.iconfinder.com/data/icons/social-network-30/512/social-06-512.png" alt="Product Image">
+                <h3>YT Channel</h3>
+               <a class="yt-btn" href="https://www.youtube.com/" target="_blank"></a>
+    </div>
+       
+        
+    <button id="scrollToTopBtn" class="scroll-to-top-btn">↑</button>
+    
+    <script src="home.js"></script>
+    <script src="shop.js"></script>
+    <script src="learnmore.js"></script>
+    <script src="loading.js"></script>
+    <script src="change.js"></script>
+    <script src="Initialization.js"></script>
+    <script src="menu.js"></script>
+    <script src="slider.js"></script>
+</body>
+</html>
